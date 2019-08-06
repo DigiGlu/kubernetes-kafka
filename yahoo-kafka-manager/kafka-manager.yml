@@ -20,7 +20,7 @@ spec:
         - containerPort: 80
         env:
         - name: ZK_HOSTS
-          value: 10.245.129.8:2181
+          value: 10.245.87.253:2181
         command:
         - ./bin/kafka-manager
         - -Dhttp.port=80
